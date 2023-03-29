@@ -14,7 +14,7 @@ const clearCart = document.querySelector(".clear-cart");
 let buttonsDOM = [];
 let cartItem = [];
 function showModalFunc() {
-  modal.style.display = "block";
+  modal.style.display = "flex";
   cart.style.opacity = "1";
   cart.style.top = "10%";
 }
